@@ -1,0 +1,22 @@
+
+.card-proj{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    /* margin-left: 26%; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.proj-main{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.projects {
+    color: white;
+    padding: 5%;
+}
+.card{
+    margin-top: 6%;
+}

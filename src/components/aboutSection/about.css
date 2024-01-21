@@ -1,0 +1,165 @@
+/* .about{
+    .img{
+        position: absolute;
+        left:0%
+    }
+}
+.me-img{
+    position: absolute;
+    left: 22vw;
+    top:8.7vh;
+}
+.about h1{
+    position: absolute;
+    left:8vw;
+    top:10vh;
+}
+.about-content{
+    position: relative;
+    background-color:#AF7AD5;
+    width:40vw;
+    left:50vw;
+    top:100px;
+    height: 55vh;
+}
+.about-content h1,.about-content .cards,.about-content polyline{
+    position:static;
+}
+*/
+.cards{
+    display: flex;
+    width: 42vw;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+.card-div{
+    /* position: static; */
+    background-color: rgb(255, 255, 255,0.5);
+    width:17vw;
+    /* left:2vw; */
+    padding-top: 2%;
+    height: 12vh;
+    border-radius: 12px;
+    line-height: 0%;
+    text-align: center;
+    /* top:15vh; */
+}
+.about-content h1,.about-content .cards,.about-content polyline{
+    position:static;
+}
+
+.card-div p{
+    color: rgb(75, 74, 74);
+}
+.about-main{
+    padding-top: 5%;
+    background-color: #ddbff2db;
+}
+.about{
+    position: static;
+    height: 550px;
+    width: 98.7vw;
+    /* background-color: #ddbff2db; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5% 0%; */
+    padding-left: 10%;
+}
+.about-content{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-top: 0%;
+}
+.text{
+    width:40vw
+}
+.text p{
+    color: rgb(53, 53, 53);
+    font-weight: 545;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding-left: 5%;
+  }
+
+  .cards {
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-div {
+    width: 40vw;
+    margin-bottom: 2vh;
+    height: 12vh;
+  }
+
+  .text {
+    width: 80vw;
+  }
+}
+
+
+
+/* Existing styles for about.css */
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+    .about {
+      flex-direction: column;
+      height: auto;
+      padding: 5% 5%;
+    }
+  
+    .about-content {
+      width: 86vw;
+      padding: 0;
+    }
+  
+    .text {
+      width: 80vw;
+    }
+  
+    .cards {
+      width: 90vw;
+      justify-content: space-between;
+    }
+  
+    .card-div {
+      width: 40vw;
+      height: 12vh;
+    }
+  }
+  @media screen and (max-width: 475px) {
+    .about {
+      padding: 2%;
+    }
+    
+    .about-content {
+      width: 100%;
+    }
+    
+    .cards {
+      width: 100%;
+      flex-direction: column;
+    }
+    
+    .card-div {
+      width: 70vw;
+      margin-bottom: 2vh;
+    }
+    
+    .text {
+      width: 100%;
+    }
+    }
+    
+  
+/* Add more media queries as needed */

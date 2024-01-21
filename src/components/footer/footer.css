@@ -1,0 +1,65 @@
+.footer{
+    color: white;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    background-color: rgb(11, 11, 11);
+}
+.contact-part h2 ,.about-part h2{
+    padding-bottom: 4%;
+}
+.contact-part h2{
+    text-align: left;
+}
+.about-part p{
+    width:40vw;
+    text-align: justify;
+}
+.part{
+    width:21vw;
+    
+    display: flex;
+    /* justify-content:space-between; */
+}
+.about-part{
+    padding: 0% 5%;
+}
+.contact-part p{
+    text-align: left;
+}
+
+
+
+/* Your existing styles for the footer */
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+    }
+    .contact-part h2{
+        text-align: center;
+    }
+
+    .contact-part, .about-part {
+      width: 100%;
+      padding: 0 5%;
+    }
+  
+    .part {
+      width: 100%;
+      justify-content: center;
+    }
+    .about-part{
+        margin-top: 7%;
+    }
+    .about-part p {
+      width: 100%;
+    }
+  }
+  
+  /* Add more media queries as needed */
+  

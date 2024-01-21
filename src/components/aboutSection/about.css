@@ -1,31 +1,4 @@
-/* .about{
-    .img{
-        position: absolute;
-        left:0%
-    }
-}
-.me-img{
-    position: absolute;
-    left: 22vw;
-    top:8.7vh;
-}
-.about h1{
-    position: absolute;
-    left:8vw;
-    top:10vh;
-}
-.about-content{
-    position: relative;
-    background-color:#AF7AD5;
-    width:40vw;
-    left:50vw;
-    top:100px;
-    height: 55vh;
-}
-.about-content h1,.about-content .cards,.about-content polyline{
-    position:static;
-}
-*/
+
 .cards{
     display: flex;
     width: 42vw;

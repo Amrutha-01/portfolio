@@ -3,6 +3,9 @@ import vectorImg from "../images/vector1.gif";
 import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons";
+
+import resume from "../images/Resume-lat.pdf.jpg"
 
 function Home() {
   return (
@@ -24,6 +27,12 @@ function Home() {
           <a href="www.linkedin.com/in/lakshmi-amrutha-rokkam-0b023122a">
             <FontAwesomeIcon icon={faLinkedin} size="2xl" />
           </a>
+          <div className="cv-button">
+          <FontAwesomeIcon icon={faCloudArrowDown} />
+          <a href={resume} target="_blank" download="Amrutha-Rokkam-Resume">
+            Download CV
+          </a>
+          </div>
         </div>
       </div>
       <div className="vector-cont">

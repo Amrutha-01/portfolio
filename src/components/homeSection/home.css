@@ -53,6 +53,16 @@
       justify-content: center;
     }
   }
+
+  .cv-button {
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #af7ad5;
+    background-color: #af7ad5e2;
+    margin-left: 100px;
+    width: 13vw;
+    padding: 5px;
+  }
   
   @media screen and (max-width: 480px) {
     .home-content {

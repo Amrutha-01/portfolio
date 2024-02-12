@@ -15,13 +15,14 @@ const Projects = () => {
           <div className="card" style={{ width: "15rem", height:"26rem" }}>
             <img src={moviePic} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h4 className="card-title">Movies App</h4>
+              <h4 className="card-title">MovieMate</h4>
               <p className="card-text">
               ReactJS and Redux power a movie app using the TMDb API, offering personalized recommendations and customizable watchlists.
               </p>
               <a
-                href="#"
+                href="https://github.com/Amrutha-01/MovieMate"
                 className="btn btn-outline-primary extra"
+                target="_blank"
               >
                 View on Github
               </a>
@@ -35,8 +36,9 @@ const Projects = () => {
               NutriCheck, a React app that uses Spoonacular API for quick access to calorie and nutrition information for various foods.
               </p>
               <a
-                href="#"
+                href="https://github.com/Amrutha-01/NutriCheck"
                 className="btn btn-outline-primary extra"
+                target="_blank"
               >
                 View on Github
               </a>
@@ -50,8 +52,9 @@ const Projects = () => {
                A fun app built with React, enabling users to create and share humorous memes using a user-friendly interface.
               </p>
               <a
-                href="#"
+                href="https://github.com/Amrutha-01/memeGenerator"
                 className="btn btn-outline-primary extra"
+                target="_blank"
               >
                 View on Github
               </a>

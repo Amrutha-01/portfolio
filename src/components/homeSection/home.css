@@ -1,75 +1,79 @@
 .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    h1{
-        margin: 0.5%;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  h1 {
+    margin: 0.5%;
+  }
 }
-.vector-cont img{
-    width:500px;
+.vector-cont img {
+  width: 500px;
 }
-.home-content{
-    color: white;
-    text-align: center;
-    width: 50vw;
-    p{
-        width: 40vw;
-        text-align: justify;
-        margin-left: 7vw;
-        color: rgb(158, 158, 158);
-    }
+.home-content {
+  color: white;
+  text-align: center;
+  width: 50vw;
+  p {
+    width: 40vw;
+    text-align: justify;
+    margin-left: 7vw;
+    color: rgb(158, 158, 158);
+  }
 }
-.icons{
-    display: flex;
-    justify-content: left;
-    padding-left: 10vw;
+.icons {
+  display: flex;
+  justify-content: left;
+  padding-left: 10vw;
 }
-.icons a{
-    margin-left: 5%;
+.icons a {
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 768px) {
-    .home {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .home-content {
-      width: 80vw;
-  
-      p {
-        width: 70vw;
-        margin-left: 0;
-      }
-    }
-    .vector-cont img{
-        height: 300px;
-        width: 300px;
-    }
-    .icons {
-      padding-left: 0;
-      justify-content: center;
-    }
+  .home {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .cv-button {
-    border: 1px solid;
-    border-radius: 7px;
-    border-color: #af7ad5;
-    background-color: #af7ad5e2;
-    margin-left: 100px;
-    width: 13vw;
-    padding: 5px;
-  }
-  
-  @media screen and (max-width: 480px) {
-    .home-content {
-      width: 90vw;
-  
-      p {
-        width: 80vw;
-      }
+  .home-content {
+    width: 80vw;
+
+    p {
+      width: 70vw;
+      margin-left: 0;
     }
   }
+  .vector-cont img {
+    height: 300px;
+    width: 300px;
+  }
+  .icons {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+
+.cv-button {
+  border: 1px solid;
+  border-radius: 7px;
+  border-color: #af7ad5;
+  background-color: #af7ad5e2;
+  margin-left: 100px;
+  width: 13vw;
+  padding: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .home-content {
+    width: 90vw;
+
+    p {
+      width: 80vw;
+    }
+  }
+  .cv-button {
+    font-size: small;
+    width: 150px;
+  }
+}

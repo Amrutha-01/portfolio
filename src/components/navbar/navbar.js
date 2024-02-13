@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div style={{ color: "white", fontWeight: "bold", fontSize: "16px" }}>
-        <p>Portfolio</p>
+        <p>Amrutha</p>
       </div>
       <div className="nav-items">
         <ul>

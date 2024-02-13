@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-import resume from "../images/Resume-lat.pdf.jpg"
+import resume from "../images/Amrutha-Resume.pdf";
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
           applications. Specializing in blending innovation and
           user-friendliness.
         </p>
-        <div className="icons" >
+        <div className="icons">
           <a href="https://github.com/Amrutha-01">
             <FontAwesomeIcon icon={faGithub} size="2xl" />
           </a>
@@ -28,10 +28,10 @@ function Home() {
             <FontAwesomeIcon icon={faLinkedin} size="2xl" />
           </a>
           <div className="cv-button">
-          <FontAwesomeIcon icon={faCloudArrowDown} />
-          <a href={resume} target="_blank" download="Amrutha-Rokkam-Resume">
-            Download CV
-          </a>
+            <FontAwesomeIcon icon={faCloudArrowDown} />
+            <a href={resume} target="_blank" download="Amrutha-Rokkam-Resume">
+              Download CV
+            </a>
           </div>
         </div>
       </div>

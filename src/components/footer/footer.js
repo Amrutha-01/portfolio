@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="contact-part">
-        <h2>Contact me</h2>
+        <h2 style={{fontWeight:'bolder'}}>Contact me</h2>
         <div className="part">
           <FontAwesomeIcon
             icon={faLocationDot}
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="about-part">
-        <h2>About Us</h2>
+        <h2 style={{fontWeight:'bolder'}}>About Us</h2>
         <p>
           I am Amrutha Rokkam, a Frontend Developer. Passionate about creating
           visually appealing and user-friendly websites, Clean code and

@@ -2,6 +2,7 @@
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 5%;
     /* align-items: center; */
     /* justify-content: center; */
@@ -10,16 +11,12 @@
         margin-bottom: 5%;
     }
 }
-.left-part .part{
-    display: flex;
-    text-align: left;
-    width: 35vw;
-}
 .point{
     margin-right: 3%;
 }
 .left-part{
-    margin-top: 2%;
+  display: block;
+  margin-right: 100px;
 }
 .skills-content{
     display: flex;
@@ -44,8 +41,8 @@
     .skills-content p{
         width: 78vw;
     }
-    .left-part .part {
-      width: 90vw;
+    .left-part{
+      display: none;
     }
     .right-part {
       width: 80vw;
@@ -56,8 +53,8 @@
   }
   
   @media screen and (max-width: 768px) {
-    .left-part .part {
-      width: 80vw;
+    .left-part {
+      display: none;
     }
   
     .right-part {

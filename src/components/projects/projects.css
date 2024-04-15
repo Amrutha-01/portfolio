@@ -20,3 +20,11 @@
 .card{
     margin-top: 6%;
 }
+.card-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deploy-link{
+    margin-left: 3%;
+}

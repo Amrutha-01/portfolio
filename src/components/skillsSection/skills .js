@@ -18,7 +18,7 @@ export default function Skills() {
         </div>
         <div className="right-part">
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>HTML</h6>
+            <h6 style={{textAlign:'left',marginLeft:'1%'}}>HTML & CSS</h6>
             <div
               className="progress"
               role="progressbar"
@@ -34,21 +34,6 @@ export default function Skills() {
             ,textAlign:'end',color:'black'}}>90%</p> */}
             </div>
           </div>
-          <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>CSS</h6>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="98"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar bg-success" style={{ width: "98%",fontWeight:'bolder'}}>
-                98%
-              </div>
-            </div>
-          </div>
           
           <div className="ind-skill">
             <h6 style={{textAlign:'left',marginLeft:'1%'}}>JavaScript</h6>
@@ -60,7 +45,7 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-info" style={{ width: "95%",fontWeight:'bolder'}}>
+              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
                 95%
               </div>
             </div>
@@ -75,8 +60,38 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-info" style={{ width: "90%",fontWeight:'bolder'}}>
-                90%
+              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+                95%
+              </div>
+            </div>
+          </div>
+          <div className="ind-skill">
+            <h6 style={{textAlign:'left',marginLeft:'1%'}}>NodeJS & ExpressJS</h6>
+            <div
+              className="progress"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+                95%
+              </div>
+            </div>
+          </div>
+          <div className="ind-skill">
+            <h6 style={{textAlign:'left',marginLeft:'1%'}}>MongoDb</h6>
+            <div
+              className="progress"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="98"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+                95%
               </div>
             </div>
           </div>
@@ -125,21 +140,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>NodeJS & ExpressJS</h6>
-            <div
-              className="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="80"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              <div className="progress-bar bg-warning" style={{ width: "80%",fontWeight:'bolder'}}>
-                80%
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars
 } from "@fortawesome/free-solid-svg-icons";
+import nameLogo from "../images/nameLogo.png"
 
 export default function Navbar() {
   const [auth, setAuth] = React.useState(true);
@@ -28,7 +29,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div style={{ color: "white", fontWeight: "bold", fontSize: "16px" }}>
-        <p>Amrutha</p>
+        <img src={nameLogo} height="110px"/>
       </div>
       <div className="nav-items">
         <ul>

@@ -6,7 +6,7 @@ import {
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 import "./skills.css";
-import skillsIllus from "../images/skills-section.gif"
+import skillsIllus from "../images/skills-section.gif";
 
 export default function Skills() {
   return (
@@ -14,11 +14,11 @@ export default function Skills() {
       <h1>Skills</h1>
       <div className="skills-content">
         <div className="left-part">
-          <img src={skillsIllus} style={{height:'400px'}}/>
+          <img src={skillsIllus} style={{ height: "400px" }} />
         </div>
         <div className="right-part">
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>HTML & CSS</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>HTML & CSS</h6>
             <div
               className="progress"
               role="progressbar"
@@ -27,16 +27,19 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-success" style={{ width: "99%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-success"
+                style={{ width: "99%", fontWeight: "bolder" }}
+              >
                 99%
               </div>
               {/* <p style={{width:'29vw'
             ,textAlign:'end',color:'black'}}>90%</p> */}
             </div>
           </div>
-          
+
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>JavaScript</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>JavaScript</h6>
             <div
               className="progress"
               role="progressbar"
@@ -45,13 +48,18 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-success"
+                style={{ width: "95%", fontWeight: "bolder" }}
+              >
                 95%
               </div>
             </div>
           </div>
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>ReactJS</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>
+              ReactJS & NextJS
+            </h6>
             <div
               className="progress"
               role="progressbar"
@@ -60,13 +68,18 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-success"
+                style={{ width: "95%", fontWeight: "bolder" }}
+              >
                 95%
               </div>
             </div>
           </div>
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>NodeJS & ExpressJS</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>
+              NodeJS & ExpressJS
+            </h6>
             <div
               className="progress"
               role="progressbar"
@@ -75,13 +88,16 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-success"
+                style={{ width: "95%", fontWeight: "bolder" }}
+              >
                 95%
               </div>
             </div>
           </div>
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>MongoDb</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>MongoDb</h6>
             <div
               className="progress"
               role="progressbar"
@@ -90,13 +106,16 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-success" style={{ width: "95%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-success"
+                style={{ width: "95%", fontWeight: "bolder" }}
+              >
                 95%
               </div>
             </div>
           </div>
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>C++</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>C++</h6>
             <div
               className="progress"
               role="progressbar"
@@ -105,13 +124,16 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-info" style={{ width: "90%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-info"
+                style={{ width: "90%", fontWeight: "bolder" }}
+              >
                 90%
               </div>
             </div>
           </div>
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>Python</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>Python</h6>
             <div
               className="progress"
               role="progressbar"
@@ -120,13 +142,18 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-warning" style={{ width: "85%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-warning"
+                style={{ width: "85%", fontWeight: "bolder" }}
+              >
                 85%
               </div>
             </div>
           </div>
           <div className="ind-skill">
-            <h6 style={{textAlign:'left',marginLeft:'1%'}}>Redux Toolkit</h6>
+            <h6 style={{ textAlign: "left", marginLeft: "1%" }}>
+              Redux Toolkit
+            </h6>
             <div
               className="progress"
               role="progressbar"
@@ -135,12 +162,14 @@ export default function Skills() {
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div className="progress-bar bg-warning" style={{ width: "80%",fontWeight:'bolder'}}>
+              <div
+                className="progress-bar bg-warning"
+                style={{ width: "80%", fontWeight: "bolder" }}
+              >
                 80%
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

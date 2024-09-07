@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-import resume from "../images/Amrutha_resume_latest.pdf";
+import resume from "../images/Amrutha_resume_latest (2).pdf";
 
 function Home() {
   return (
